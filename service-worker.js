@@ -3,7 +3,7 @@ self.addEventListener('install', e => {
       caches.open('health-checklist-v1').then(cache => {
         return cache.addAll([
           './',
-          './HealthPreChecklist.html',
+          './index.html',
           './manifest.json',
           './icon-192.png',
           './icon-512.png'
