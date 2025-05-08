@@ -1,0 +1,133 @@
+/* Basic styles for Health Pre-Check List */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdfdfb;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+
+header {
+  background: #88d4ab;
+  color: white(255, 0, 0);
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: normal;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #264653;
+}
+
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.week-overview, .day-section {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.reminder {
+  background: #fef6e4;
+  border-left: 6px solid #ffb703;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  color: #2a9d8f;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+ /* Default light mode styles */
+body {
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.dark-mode-toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  background-color: #88d4ab;
+  color: #353535;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px #333;
+}
+
+.dark-mode-toggle.dark {
+  color: #ffffff;
+  background-color: #555;
+}
+
+
+body.dark-mode header {
+  background: #555;
+  color: #ffffff;
+}
+
+body.dark-mode .week-overview, body.dark-mode .day-section {
+  background: #555;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgb(0, 0, 0);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+body.dark-mode .section-title {
+  color: #e9c46a;
+}
+
+body.dark-mode h2 {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+body.dark-mode .reminder {
+  background: #0000002f;
+  border-left: 6px solid #858585;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
