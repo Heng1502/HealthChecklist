@@ -1,7 +1,7 @@
 {
     "name": "Health Prep Checklist",
     "short_name": "HealthChecklist",
-    "start_url": "./HealthPreChecklist.html",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#fdfdfb",
     "theme_color": "#88d4ab",
